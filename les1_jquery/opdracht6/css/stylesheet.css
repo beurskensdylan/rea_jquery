@@ -1,0 +1,19 @@
+#container {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.section {
+	width: 100vw;
+	height: 100%;
+	display: none;
+}
+.active {
+	display: block;
+}
+.hide {
+	display: none;
+}
