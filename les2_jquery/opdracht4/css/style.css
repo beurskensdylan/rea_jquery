@@ -1,0 +1,10 @@
+body {
+    padding: 20px;
+}
+.divje {
+    margin: 20px 20px 20px 0;
+    width: 200px;
+    height: 200px;
+    background-color: #d87093;
+    border: 2px solid black;
+}
