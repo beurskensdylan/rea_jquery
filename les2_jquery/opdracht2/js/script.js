@@ -1,11 +1,9 @@
 $(document).ready(function(){
-	let time = 0;
 	$("button").on("click", function(){
+		let time = 0;
 		$(".block").each(function() {
-		time += 500;
-		setTimeout(() => {
-			$(this).slideToggle(2000);
+			$(this).delay(time).slideToggle(2000);
+			time += 500;
 		})
-		}, time)
 	});
 });
